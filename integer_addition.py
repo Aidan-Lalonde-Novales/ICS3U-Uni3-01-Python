@@ -2,23 +2,24 @@
 
 # Created by Aidan Lalonde-Novales
 # Created March 2022
-# This program ...
-
-import constants
+# This program adds two integers together
 
 
 def main():
-    # this function calculates ...
+    # this function adds to integers together
 
     # input
-    number = float(input("Enter a number: "))
+    int1 = int(input("Enter the first number to add (integer): "))
+    int2 = int(input("Enter the second number to add (integer): "))
 
     # process
-    output = number + 1
+    total = int1 + int2
 
     # output
     print("")
-    print("Your answer is {0:,.2f}".format(output))
+    print("{0} + {1}".format(int1, int2))
+    print("")
+    print("Your answer is {0:,.0f}".format(total))
     print("\nDone.")
 
 
